@@ -1,0 +1,8 @@
+# Terminal 1 - Backend
+cd backend
+.\venv\Scripts\python.exe manage.py runserver
+
+# Terminal 2 - Frontend  
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+cd frontend
+npm run dev
